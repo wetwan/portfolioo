@@ -13,7 +13,7 @@ const index = () => {
     },
   };
   return (
-    <section className="bg-gray-200 py-64 absolute top-0 w-full -z-10  ">
+    <section className="bg-gray-200 pt-64 absolute top-0 w-full -z-10  ">
       <div className=" w-4/6 mx-auto text-center py-5 mb-28">
         <p className="mb-10 text-gray-600 inline-flex items-center justify-center gap-1 text-center text-base uppercase font-semibold ">
           <Link to="/" className="flex items-center hover:text-yellow-500">

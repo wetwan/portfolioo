@@ -192,6 +192,7 @@ const index = () => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31631.234417672207!2d4.4726101!3d7.6934189!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1734198425343!5m2!1sen!2sng"
             width="600"
+            aria-label="map"
             className="w-full border-none outline-none"
             height="496"
          

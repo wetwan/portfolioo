@@ -38,7 +38,7 @@ const Cards = ({ image, title, link, stack }: Props) => {
           ))}
         </div>
       </Link>{" "}
-      <img src={image} alt="" className="w-full h-full object-cover z-30 " />
+      <img src={image} alt={title} className="w-full h-full object-cover z-30 " />
     </motion.div>
   );
 };

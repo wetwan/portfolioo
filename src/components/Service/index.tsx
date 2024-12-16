@@ -22,7 +22,7 @@ const index = () => {
           <Link to="/" className="flex items-center hover:text-yellow-500">
             home <ChevronRightIcon className="w-10 h-10 inline" />
           </Link>
-          service <ChevronRightIcon className="w-10 h-10 inline-block" />
+          service 
         </p>
         <h4 className="text-5xl capitalize font-medium leading-normal ">
           what do i do

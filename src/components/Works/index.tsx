@@ -19,11 +19,10 @@ const index = () => {
           <Link to="/" className="flex items-center hover:text-yellow-500">
             home <ChevronRightIcon className="w-5 h-5 inline" />
           </Link>
-          portfolio
-          <ChevronRightIcon className="w-5 h-5 inline-block" />
+          work
         </p>
         <h4 className="text-5xl capitalize font-medium leading-normal ">
-          my portfolio
+          my work
         </h4>
       </div>
       {/* portfolio info  */}
@@ -31,7 +30,7 @@ const index = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.4 }}
+        viewport={{ once: true, amount: 0.2 }}
         variants={container}
         transition={{ duration: 0.5 }}
         className="px-10 sm:w-5/6 w-full py-6 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mx-auto"

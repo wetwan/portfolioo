@@ -15,7 +15,7 @@ const Cards = ({ image, title, link, stack }: Props) => {
   return (
     <motion.div
       variants={childVariant}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.2 }}
       className="rounded-lg shadow-2xl bg-white border-black relative overflow-hidden h-[350px]"
     >
       <Link

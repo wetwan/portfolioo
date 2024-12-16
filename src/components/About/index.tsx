@@ -20,7 +20,7 @@ const index = () => {
           <Link to="/" className="flex items-center hover:text-yellow-500">
             home <ChevronRightIcon className="w-5 h-5 inline" />
           </Link>
-          about me <ChevronRightIcon className="w-5 h-5 inline-block" />
+          about me 
         </p>
         <h4 className="text-5xl capitalize font-medium leading-normal ">
           {" "}
@@ -81,7 +81,7 @@ const index = () => {
               <div className="gap-6 mb-6 basis-2/5 flex items-end justify-between">
                 {" "}
                 <p className="  basis-2/6 text-base font-medium  capitalize">
-                  doB:
+                  dob:
                 </p>
                 <p className="text-base text-right text-yellow-500 font-medium  capitalize">
                   4th-july
@@ -100,10 +100,10 @@ const index = () => {
             <div className="lg:basis-2/5 w-full  lg:py-5">
               <div className="gap-6  mb-6 basis-2/5 flex items-center justify-end ">
                 <p className="basis-2/6 text-base font-medium  capitalize ">
-                  githb:
+                  github:
                 </p>
                 <p className=" w-full   text-base text-right text-yellow-500 font-medium  capitalize">
-                 <a href="https://github.com/wetwan" target="blank"> github</a> 
+                 <Link to="https://github.com/wetwan" target="blank"> github</Link> 
                 </p>
               </div>
               <div className="gap-6  mb-6 basis-2/5 flex items-center justify-end">

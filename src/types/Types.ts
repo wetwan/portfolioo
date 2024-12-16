@@ -16,10 +16,12 @@ export type Serviceindex = {
   description: string;
 };
 export type Portfolioindex = {
- 
-    image: string,
-    title: string,
-    stack:string[] ,
-    link: string
- 
+  image: string;
+  title: string;
+  stack: string[];
+  link: string;
+};
+export type SocialsIndex = {
+  socail: string;
+  link: string;
 };

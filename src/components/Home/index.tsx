@@ -9,7 +9,7 @@ import { image } from "../../assets";
 const index = () => {
   const naviagte = useNavigate();
   return (
-    <section className="fixed w-full flex flex-col sm:flex-row items-center justify-center text-black sm:top-0 md:bottom-0 sm:-z-50 h-screen z-50">
+    <section className="fixed w-full flex flex-col sm:flex-row items-center justify-center text-black sm:top-0 md:bottom-0 sm:-z-50 h-full z-50">
       {/* hero details  */}
    
       <motion.div

@@ -4,6 +4,7 @@ import { Link } from "react-router";
 import { useForm } from "react-hook-form";
 
 import { motion } from "framer-motion";
+import { socails } from "../../assets";
 
 const index = () => {
   const {
@@ -25,7 +26,7 @@ const index = () => {
           <Link to="/" className="flex items-center hover:text-yellow-500">
             home <ChevronRightIcon className="w-5 h-5 inline" />
           </Link>
-          contact me <ChevronRightIcon className="w-5 h-5 inline-block" />
+          contact me
         </p>
         <h4 className="text-5xl capitalize font-medium leading-normal ">
           contact me
@@ -177,6 +178,19 @@ const index = () => {
               submit
             </button>
           </form>
+          <div className="mt-10 flex items-center gap-5">
+            {socails.map((item, i) => (
+              <Link
+                to={item.link}
+                key={i}
+                target="blank"
+                className="px-6 py-3 bg-orange-500 text-white text-xl rounded-md capitalize hover:opacity-90"
+              >
+                {" "}
+                {item.socail}
+              </Link>
+            ))}
+          </div>
         </motion.div>
         <motion.div
           initial="hidden"
@@ -195,7 +209,6 @@ const index = () => {
             aria-label="map"
             className="w-full border-none outline-none"
             height="496"
-         
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

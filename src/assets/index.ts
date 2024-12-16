@@ -1,4 +1,4 @@
-import { Aboutindex, Navmenu, Portfolioindex, Serviceindex, Skillindex } from "../types/Types";
+import { Aboutindex, Navmenu, Portfolioindex, Serviceindex, Skillindex, SocialsIndex } from "../types/Types";
 
 import Web from "./web-programming.png";
 import Ux from "./ux-design.png";
@@ -36,6 +36,20 @@ export const image = {
   Food,
 };
 
+export const socails:SocialsIndex[] =[
+  {
+    socail: 'twitter',
+    link: 'https://x.com/riidwanullah'
+  },
+  {
+    socail: 'linkedin',
+    link: 'https://www.linkedin.com/in/adebayo-ridwan-98b51720a/'
+  },
+  {
+    socail: 'github',
+    link: 'https://github.com/wetwan'
+  },
+]
 export const portfolioIndex:Portfolioindex[] = [
   {
     image: Book,
@@ -133,8 +147,8 @@ export const nav: Navmenu[] = [
     label: "service",
   },
   {
-    link: "/works",
-    label: "works",
+    link: "/work",
+    label: "work",
   },
   {
     link: "/contact",
